@@ -16,6 +16,7 @@ p {
     font-weight: bold;
     font-size:medium
 }
+
 article {
     font-family: 'Roboto Mono', monospace;
     font-size: medium;
@@ -44,19 +45,19 @@ text-align: center;
     font-weight: 900;
 }
 .wwww {
-    padding-top: 35px;
-    padding-bottom: 60px;
+    padding-top: 6%;
+    padding-bottom: 13%;
 }
 .secound {
         color: black;
         font-family: 'Luckiest Guy', cursive;
         font-size: x-large;
 }
-.log {
+/* .log {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-}
+} */
 .looog {
     width: 150px;
     height: 80px;
@@ -212,4 +213,7 @@ footer {
 }
 .oi {
     border: 1px solid #213363;
+}
+@media only screen and (max-width: 76px) {
+
 }
