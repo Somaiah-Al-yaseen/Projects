@@ -214,6 +214,16 @@ footer {
 .oi {
     border: 1px solid #213363;
 }
-@media only screen and (max-width: 76px) {
-
+@media screen and (max-width: 320px) {
+.navbar {
+    width: 100%;
 }
+.mainonee { width: 25%;}
+.edu1 {width: 62%;
+height: 70%;}
+}
+/* @media screen and (min-width: 768px) {
+    .navbar {width: 130%;}
+
+} */
+
