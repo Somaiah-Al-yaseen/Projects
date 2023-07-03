@@ -22,6 +22,7 @@ article {
 }
 i {
     color: #213363;
+    margin: 3%;
 }
 .one {display: flex;
 margin-top: 7%;
@@ -80,7 +81,8 @@ background-color:#213363 ;
 margin-top: 1px;
 position: fixed;
 top:0 ;
-z-index: 30000;}
+z-index: 30000;
+width: 73%;}
 a {
 color: white;
 }
@@ -167,12 +169,12 @@ color: white;
 }
 .EXPERIENCE2 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
 }
 .exp1 {
 border: 1px solid black;
 padding: 20px 0;
-margin: 10px;
+margin: 2%;
 text-align: center;
 }
 
@@ -207,4 +209,7 @@ footer {
 }
 .maryana {
     border: 3px solid white;
+}
+.oi {
+    border: 1px solid #213363;
 }
