@@ -25,24 +25,20 @@ i {
     color: #213363;
     margin: 3%;
 }
+a:hover {
+    text-decoration: none;
+}
 .one {display: flex;
-margin-top: 7%;
-/* margin-left: 10% ; */
+margin-top: 8%;
 background-color: #DDE6ED;
 text-align: center;
 }
 .part1 {
-    margin-top: 24%;
+    margin-top: 17%;
     width: 50%;
 }
 .part2 {
     width: 35%;
-}
-.once {
-    font-size: larger;
-    font-family: 'Great Vibes', cursive;
-            font-size:xx-large;
-    font-weight: 900;
 }
 .wwww {
     padding-top: 6%;
@@ -53,104 +49,64 @@ text-align: center;
         font-family: 'Luckiest Guy', cursive;
         font-size: x-large;
 }
-/* .log {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-} */
-.looog {
-    width: 150px;
-    height: 80px;
-}
-ul {
-    list-style: none;
-    display: flex;
+
+
+.container-fluid {
+    margin-left: 4%;
 }
 li {
-    padding-left: 0;
-    display: inline-block;
-    /* width: 135px;
-    height: 15px; */
     font-size:small;
     font-weight:bold;
     text-align: center;
     padding: 25px 34px;
     
 }
-.navbar {padding: 0;
+.navbar {
 background-color:#213363 ;
-margin-top: 1px;
 position: fixed;
 top:0 ;
 z-index: 30000;
-width: 73%;}
+width: 73%;
+}
 a {
 color: white;
 }
-.naaaav:hover{
-    color: #557deb;
+li:hover{
     font-weight: bold;
     font-size: larger;
-    /* background-color: white; */
-    text-decoration: none;
 }
-.mainonee {
-    width: 1500px;
-    font-family: 'Orbitron', sans-serif;
-    font-size: xx-large;
-    color: #213363;
-}
+
 .mainone{
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     font-size: xx-large;
     color: #213363;
-    margin-top: 50px;
+    margin-top: 3%;
 
 }
-#ABOUTME {
-    display: flex;
-    margin-top: 130px;
-} 
 
- .par {
-    display: inline-block;
-    color: #213363;
-    margin-top: 30px;
-}
 .Qualification2 {
-    margin-top: 130px;
     display: flex;
 }
 .quaa {
-    width: 200px;
-    height: 150px;
+    width: 60%;
+    height: 50%;
     border-radius: 50%;
 }
 .edu1 {
     border: 1px solid black;
-    margin: 10px;
-    padding:21px;
+    margin: 3%;
+    padding:1%;
     text-align: center;
-    width: 390px;
+    width: 45%;
 }
 #PROJECTS {
-    padding: 70px 0;
+    padding: 1% 0;
     background-color: #DDE6ED;
-    /* margin-top: 130px; */
 }
-.fiirst {
-    border: 1px solid black ;
-    font-size: xx-large;
-    color: #213363;
-    margin-top:20px ;
-    margin-bottom: 40px ;
-    margin-right:20px ;
-    padding: 20px;
-    text-align: center;
-}
+
 .oooo {
-    padding: 40px;
+    padding-top: 15%;
     color: black;
     font-size:x-large;
     font-family: 'Orbitron', sans-serif;
@@ -158,40 +114,23 @@ color: white;
 
 }
 .PROJECTS2{
-    display: grid;
-    grid-template-columns: auto auto ;
+    display: flex;
 }
-#EXPERIENCE {
-    margin-top: 130px;
-}
+
 .projo {
-    width: 300px;
-    height: 300px;
+    width: 50%;
+    height: 60%;
 }
 .EXPERIENCE2 {
-    display: grid;
-    grid-template-rows: auto auto auto auto;
-}
+    display: flex;
+flex-direction: column;}
 .exp1 {
 border: 1px solid black;
-padding: 20px 0;
+padding: 1% 0;
 margin: 2%;
 text-align: center;
 }
 
-.ppp {
-    display: inline-block;
-}
-.CONTACTME2 {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-.cont1 {
-    border: 1px black solid;
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
-}
 footer {
     text-align: center;
     background-color: #213363;
@@ -214,16 +153,41 @@ footer {
 .oi {
     border: 1px solid #213363;
 }
-@media screen and (max-width: 320px) {
-.navbar {
-    width: 100%;
+button :hover {
+    color: white;
 }
-.mainonee { width: 25%;}
-.edu1 {width: 62%;
-height: 70%;}
+
+@media (max-width:570px) {
+.navbar{width: auto;}
+.quaa {display: none;}
+.wwww {display: none;}
+p{font-size: xx-small;}
+article{font-size: x-small;
+font-family: 'Times New Roman', Times, serif;}
+h2{font-size:small;
+font-family: 'Times New Roman', Times, serif;}
+.oooo{font-size: small;
+font-family: 'Times New Roman', Times, serif;}
 }
-/* @media screen and (min-width: 768px) {
-    .navbar {width: 130%;}
 
-} */
+@media (min-width:571px) and (max-width:993px) {
+    .navbar{width: auto;}
 
+    .wwww{width: 90%;
+    height:80% ;}
+    article{font-size: small;
+        font-family: 'Times New Roman', Times, serif;}
+        h2{font-size:small;
+            font-family: 'Times New Roman', Times, serif;}
+            .oooo{font-size: large;
+                font-family: 'Times New Roman', Times, serif;}
+}
+@media (min-width:994px) {
+.navbar {width: 100%;}
+}
+@media (min-width:1250px) {
+.navbar {width: 80%;}
+}
+@media (min-width:1441px) {
+.navbar {width: 73%;}
+}
